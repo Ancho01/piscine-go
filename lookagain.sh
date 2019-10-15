@@ -1,4 +1,4 @@
 
-find .  -name '*sh'| rev | cut -d '/' -f1 | rev | cut -d '.' -f1 
+find . -name "*.sh" | cut -d '.' -f2 | rev | cut -d '/' -f1 | rev 
   
 
