@@ -1,2 +1,2 @@
 
-find . -iname 'a*' -o -iname '*z' -o iname 'z**a!' 
+find . -name 'a*' -o -name '*z' -o -name 'z**a!' 
