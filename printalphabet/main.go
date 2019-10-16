@@ -5,7 +5,7 @@ import "github.com/01-edu/z01"
 func main() {
 
 	var i = 'a'
-	for i <= 'z'{
+	for i <= 'z' {
 		z01.PrintRune(i)
 		i++
 	}
