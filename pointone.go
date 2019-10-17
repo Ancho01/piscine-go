@@ -1,10 +1,15 @@
 package main
 
-import "github.com/01-edu/z01"
+import "fmt"
+
+func PointOne(n *int) {
+
+	*n = 1
+}
+
 
 func main() {
-
-	n := 1
-	z01.PointOne(&n)
-	z01.Println(n)
+	n := 0
+	PointOne(&n)
+	fmt.Println(n)
 }
