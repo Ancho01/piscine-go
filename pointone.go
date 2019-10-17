@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func main() {
 
-	n := 1
+	var pointer *int = &n
 	z01.PointOne(&n)
 	z01.Println(n)
 }
