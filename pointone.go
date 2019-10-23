@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import "github.com/01-edu/z01"
 
 func PointOne(n *int) {
 
@@ -10,5 +10,5 @@ func PointOne(n *int) {
 func main() {
 	n := 0
 	PointOne(&n)
-	fmt.Println(n)
+	z01.Println(n)
 }
